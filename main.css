@@ -1,0 +1,34 @@
+﻿#mainDiv
+{
+    position: relative;
+    height: 400px;
+}
+
+#videoIn
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#buffer
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#videoOut
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: solid red 3px;
+}
+
+#processingTypeText
+{
+    font-weight: bold;
+}
+
+

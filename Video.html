@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Video Processing Demo</title>
+        <link rel="stylesheet" href="main.css" />
+        <script src="Scripts/video.js"></script>
+    </head>
+    <body>
+        <div id="mainDiv">
+            <video id="videoIn" src="Videos/Falls.mp4" width="640" height="360" autoplay>
+                Your browser does not support the VIDEO element. Please use a newer browser.
+            </video>
+            <canvas id="buffer" width="640" height="360"></canvas>
+            <canvas id="videoOut" width="640" height="360"></canvas>
+        </div>
+        <p>
+            <span>Processing: </span>
+            <span id="processingTypeText">None</span>
+        </p>
+        <input id="recolor" type="button" value="Recolor">
+        <input id="negate" type="button" value="Negate">
+        <input id="none" type="button" value="None">
+    </body>
+</html>
+<script type="text/javascript">
+	var g_duration = 144;
+var g_iisLatency = 9;
+var g_requireJSDone = new Date().getTime();
+</script>
